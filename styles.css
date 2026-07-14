@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-=======
->>>>>>> origin
 * {
     margin: 0;
     padding: 0;
@@ -40,7 +32,6 @@ footer {
 /* ===========================================
    Team Members Styles (Person A)
    =========================================== */
-<<<<<<< HEAD
 
 
 .skills-container {
@@ -72,16 +63,13 @@ footer {
     transition: width 0.5s ease;
 }
 
-=======
 .members-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
->>>>>>> d0b54f50e56b61dfc594e45777c8437011250f54
     gap: 20px;
     margin-top: 20px;
 }
 
-<<<<<<< HEAD
 .project-card {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
@@ -124,7 +112,6 @@ footer {
 .project-btn:hover {
     opacity: 0.9;
 }
-=======
 .member-card {
     background: #f9f9f9;
     padding: 20px;
@@ -161,8 +148,34 @@ footer {
 /* ===========================================
    Skills Section Styles (Person B)
    =========================================== */
+.skills-container {
+    margin-top: 20px;
+}
 
->>>>>>> origin
+.skill-item {
+    margin-bottom: 15px;
+}
+
+.skill-name {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.skill-bar {
+    background: #e0e0e0;
+    border-radius: 10px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.skill-progress {
+    background: linear-gradient(90deg, #007bff, #00d4ff);
+    height: 100%;
+    border-radius: 10px;
+    transition: width 0.5s ease;
+}
 
 /* ===========================================
    Projects Section Styles (Person C)
@@ -173,7 +186,3 @@ footer {
    Contact Form Styles (Person D)
    =========================================== */
 
-<<<<<<< HEAD
-=======
->>>>>>> d0b54f50e56b61dfc594e45777c8437011250f54
->>>>>>> origin
