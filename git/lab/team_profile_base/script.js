@@ -16,6 +16,7 @@ function initProjects() {
    Contact Form Functions (Person D)
    =========================================== */
 
+   
 function initContactForm() {
     const form = document.getElementById('contact-form');
     const status = document.getElementById('form-status');
@@ -41,3 +42,4 @@ function initContactForm() {
         });
     }
 }
+
